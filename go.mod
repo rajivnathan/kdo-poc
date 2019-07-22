@@ -1,4 +1,4 @@
-module github.ibm.com/rajivsen/kdo-poc
+module github.com/rajivnathan/kdo-poc
 
 go 1.12
 

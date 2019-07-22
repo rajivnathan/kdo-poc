@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/rajivnathan/kdo-poc/common"
 	"github.com/spf13/cobra"
-	"github.ibm.com/rajivsen/kdo-poc/common"
 	"strings"
 )
 
