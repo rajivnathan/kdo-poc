@@ -6,9 +6,9 @@ import (
 	"strings"
 )
 
-// CmdPrintA External command
-var CmdPrintA = &cobra.Command{
-	Use:   "printa [string to print]",
+// CmdPrintKdo External command
+var CmdPrintKdo = &cobra.Command{
+	Use:   "printkdo [string to print]",
 	Short: "Print anything to the screen",
 	Long: `print is for printing anything back to the screen.
 For many years people have printed back to the screen.`,
@@ -20,5 +20,5 @@ For many years people have printed back to the screen.`,
 }
 
 var localPrint = func(cmd *cobra.Command, args []string) {
-	fmt.Println("Print commandA: " + strings.Join(args, " "))
+	fmt.Println("Print kdo: " + strings.Join(args, " "))
 }

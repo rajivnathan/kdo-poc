@@ -38,7 +38,7 @@ a count and a string.`,
 	cmdTimes.Flags().IntVarP(&echoTimes, "times", "t", 1, "times to echo the input")
 
 	var rootCmd = &cobra.Command{Use: "kdo-poc"}
-	rootCmd.AddCommand(common.CmdPrintA, cmdEcho)
+	rootCmd.AddCommand(common.CmdPrintKdo, cmdEcho)
 	cmdEcho.AddCommand(cmdTimes)
 	rootCmd.Execute()
 }
